@@ -6,7 +6,7 @@
 
     <groupId>com.techprimers.testing</groupId>
     <artifactId>jenkins-example</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
 
     <properties>
@@ -60,13 +60,13 @@
 <distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
+	      <name>Motionio Technologies Releases Nexus Repository</name>
 	      <url>http://172.31.38.70:8187/motionio/repository/motion25app-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository</name>
+	      <name>Motionio Technologies Snapshot Nexus Repository</name>
 	      <url>http://172.31.38.70:8187/motionio/repository/motion25app-snapshots/</url>
 	    </snapshotRepository>
    <!-- <repositories>
